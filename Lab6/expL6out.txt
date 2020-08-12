@@ -1,0 +1,22 @@
+tree2: a balanced copy of tree1 contains 26 nodes on 5 levels:
+PRE ORDER tree2:   M F C A B D E I G H K J L T P N O R Q S W U V Y X Z 
+IN ORDER tree2:    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+POST ORDER tree2:  B A E D C H G J L K I F O N Q S R P V U X Z Y W T M 
+LEVEL ORDER tree2: M F T C I P W A D G K N R U Y B E H J L O Q S V X Z 
+tree2.equals(tree1)=false
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+level: 4   11
+tree3: a constructor copy (identical) of tree2 contains 26 nodes on 5 levels:
+PRE ORDER tree3:   M F C A B D E I G H K J L T P N O R Q S W U V Y X Z 
+IN ORDER tree3:    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+POST ORDER tree3:  B A E D C H G J L K I F O N Q S R P V U X Z Y W T M 
+LEVEL ORDER tree3: M F T C I P W A D G K N R U Y B E H J L O Q S V X Z 
+tree3.equals(tree2)=true
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+level: 4   11

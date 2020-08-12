@@ -1,0 +1,6 @@
+
+tree1 loaded from L5input.txt contains 9 nodes:
+INORDER print of tree1: alpha bravo charlie delta echo foxtrot golf hotel india 
+PRE ORDER print of tree1: golf echo bravo alpha charlie delta foxtrot hotel india 
+POST ORDER print of tree1: alpha delta charlie bravo foxtrot echo india hotel golf 
+LEVEL ORDER print of tree1: golf echo hotel bravo foxtrot india alpha charlie delta 
