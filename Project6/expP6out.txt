@@ -1,0 +1,64 @@
+
+tree1: loaded from P6input.txt contains 26 nodes on 5 levels:
+IN ORDER tree1:    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+LEVEL ORDER tree1: M F T C I P W A D G K N R U Y B E H J L O Q S V X Z 
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+level: 4   11
+
+tree1: after removing C, I, P, W, contains 22 nodes on 5 levels:
+IN ORDER tree1:    A B D E F G H J K L M N O Q R S T U V X Y Z 
+LEVEL ORDER tree1: M F T B H O V A D G K N R U Y E J L Q S X Z 
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+level: 4   7
+
+tree1: after removing J, S, Z, contains 19 nodes on 5 levels:
+IN ORDER tree1:    A B D E F G H K L M N O Q R T U V X Y 
+LEVEL ORDER tree1: M F T B H O V A D G K N R U Y E L Q X 
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+level: 4   4
+
+tree1: after removing D, K, R, Y, contains 15 nodes on 4 levels:
+IN ORDER tree1:    A B E F G H L M N O Q T U V X 
+LEVEL ORDER tree1: M F T B H O V A E G L N Q U X 
+level: 0   1
+level: 1   2
+level: 2   4
+level: 3   8
+
+Now attempting remove of A..Z
+
+remove(A) successful: M F T B H O V E G L N Q U X 
+remove(B) successful: M F T E H O V G L N Q U X 
+remove(C) failure:    M F T E H O V G L N Q U X 
+remove(D) failure:    M F T E H O V G L N Q U X 
+remove(E) successful: M F T H O V G L N Q U X 
+remove(F) successful: M H T G L O V N Q U X 
+remove(G) successful: M H T L O V N Q U X 
+remove(H) successful: M L T O V N Q U X 
+remove(I) failure:    M L T O V N Q U X 
+remove(J) failure:    M L T O V N Q U X 
+remove(K) failure:    M L T O V N Q U X 
+remove(L) successful: M T O V N Q U X 
+remove(M) successful: T O V N Q U X 
+remove(N) successful: T O V Q U X 
+remove(O) successful: T Q V U X 
+remove(P) failure:    T Q V U X 
+remove(Q) successful: T V U X 
+remove(R) failure:    T V U X 
+remove(S) failure:    T V U X 
+remove(T) successful: V U X 
+remove(U) successful: V X 
+remove(V) successful: X 
+remove(W) failure:    X 
+remove(X) successful: 
+remove(Y) failure:    
+remove(Z) failure:    

@@ -1,0 +1,43 @@
+C:\Users\tim\Desktop\project-07-GraphClass\solutions>java GraphTester graphdata.txt
+ 0 10 -1 -1 -1 -1  2 -1
+-1  0 31 -1 -1 -1 -1 -1
+-1 22  0 -1 -1 -1 -1 -1
+-1 -1 -1  0 -1 11 -1 -1
+ 9 56 -1 13  0 -1 -1 -1
+-1 -1 25 -1 -1  0 15 -1
+-1  6 -1 -1 -1 -1  0 22
+12 -1 -1 -1 -1  1 -1  0
+
+maxOutDegree: 3
+minOutDegree: 1
+maxInDegree: 4
+minInDegree: 0
+maxDegree: 5
+minDegree: 2
+
+removing edge 3 -> 5
+Graph after removing edge 3 -> 5
+ 0 10 -1 -1 -1 -1  2 -1
+-1  0 31 -1 -1 -1 -1 -1
+-1 22  0 -1 -1 -1 -1 -1
+-1 -1 -1  0 -1 -1 -1 -1
+ 9 56 -1 13  0 -1 -1 -1
+-1 -1 25 -1 -1  0 15 -1
+-1  6 -1 -1 -1 -1  0 22
+12 -1 -1 -1 -1  1 -1  0
+
+removing edge 6 -> 1
+Graph after removing edge 6 -> 1
+ 0 10 -1 -1 -1 -1  2 -1
+-1  0 31 -1 -1 -1 -1 -1
+-1 22  0 -1 -1 -1 -1 -1
+-1 -1 -1  0 -1 -1 -1 -1
+ 9 56 -1 13  0 -1 -1 -1
+-1 -1 25 -1 -1  0 15 -1
+-1 -1 -1 -1 -1 -1  0 22
+12 -1 -1 -1 -1  1 -1  0
+
+removing edge 17 -> 6
+java.lang.Exception: Non Existent Edge Exception: removeEdge(17,6)
+
+C:\Users\tim\Desktop\project-07-GraphClass\solutions>
